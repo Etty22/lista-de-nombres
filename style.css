@@ -1,0 +1,97 @@
+.container-nombre{
+    display: grid;
+    grid-template-columns: minmax(100px,500px) 1fr;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background: #005;
+    border: 2px solid #afa;
+    color: #fff;
+
+
+
+}
+
+.option{
+    display: flex;
+    justify-self: end;
+
+}
+.option button{
+    background: transparent;
+    border: none;
+    outline: none;
+    margin: 4px 10px;
+
+    
+}
+.delete:hover,.posible:hover{
+    color: #6af;
+}
+.delete, .posible{
+    color: #37d;
+}
+.imposible{
+    color: #ddd;
+}
+.container-coso{
+    display: grid;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    
+}
+.container{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    
+}
+
+.titulo{
+    color: #000;
+    background-color: #fff;
+}
+body{
+    background-color: #222;
+}
+.nombre{
+    margin: 5px;
+    background-color: #333;
+    display: block;
+    color:#eee;
+    height: 2em;
+    width: 20em;
+    padding: 5px;
+}
+.nombre::placeholder{
+    color:#eee;
+}
+.subir{
+    height: 3em;
+    width: 5em;
+    padding: 10px;
+    background: #555;
+    color: #fff;
+    border-color: #555;
+    transition: 1s;
+    border-radius: 20%;
+    justify-self: end;
+    display: block;
+}
+.subir:hover{
+    background: #aaa;
+}
+input{
+    outline: none;
+}
+h1{
+    color: #fff;
+}
+h2{
+    outline: none;
+}
